@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/styles.css">
-  <style type="text/css">
-    /* Reset default margin and padding */
+/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -40,16 +33,3 @@
       align-items: flex-start;
     }
   }
-  </style>
-  <title>Phaser Game</title>
-</head>
-<body>
-    <header class="header">
-        <div class="logo">
-          <h1>Random Game</h1>
-        </div>
-    </header>
-  <div id="game-container"></div>
-  <script type="module" src="./index.ts"></script>
-</body>
-</html>
